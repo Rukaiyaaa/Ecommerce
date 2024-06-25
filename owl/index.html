@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+</head>
+<body>
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+            <img src="img/product12-700x850.jpg" alt="#">
+        </div>  
+        <div class="item">
+            <img src="img/product14-700x850.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="img/product15-700x850.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="img/product24-700x850.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="img/product26-700x850.png" alt="">
+        </div>
+        </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script type="">
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    autoplay:true,
+    items:2,
+    autoplayTimeout:1000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+})
+    </script>
+</body>
+</html>
